@@ -1,0 +1,28 @@
+footer{
+    background-color: var(--point-color-2);
+    font-family: var(--font-main);
+    color:#fff;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-container{
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-info{
+    font-size: 1rem;
+}
+.footer-info .sns{
+    margin-top: .5rem;
+    display: flex;
+    gap: 1rem;
+}
+.sns{
+    margin-top: .5rem;
+    display: flex;
+    gap: 1rem;
+}
