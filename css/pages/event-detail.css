@@ -1,0 +1,36 @@
+.event-container{
+    padding: var(--margin-top-pc) 0;
+}
+.event{
+    border-bottom: 1px solid #000;
+    margin-bottom: var(--margin-top-pc);
+}
+.event .common-frame{
+    display: flex;
+    gap: var(--margin-main-text);
+    padding-bottom: var(--margin-sub-text);
+    align-items: center;
+    font-size: var(--heading-1);
+    font-weight: var(--medium-weight );
+}
+.event img{
+    width: 17.4px;
+}
+.event-box{
+    width: 1000px;
+    margin: 0 auto;
+    font-size: var(--heading-2);
+    font-weight: var(--bold-weight );
+}
+.event-title{
+    display: flex;
+    gap: 4rem;
+    margin-bottom: var(--margin-sub-text);
+}
+.event-box figure{
+    margin-bottom: var(--margin-sub-text);
+}
+.event-box figcaption{
+    font-size: 1rem;
+    font-weight: var(--medium-weight);
+}
