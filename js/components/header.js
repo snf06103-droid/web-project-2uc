@@ -1,5 +1,5 @@
 window.addEventListener('scroll', () => {
-    // #site-header 안에 생성된 header 태그를 찾습니다.
+    
     const header = document.querySelector('#site-header header') || document.querySelector('header');
     
     if (window.scrollY > 0) {
