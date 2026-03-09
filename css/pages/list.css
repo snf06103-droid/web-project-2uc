@@ -11,4 +11,53 @@
     align-items: center;
     gap: 1.5rem;
     border-bottom: 1px solid #999999;
+    box-sizing: border-box;
+    font-size: var(--heading-2);
+    font-weight: var(--bold-weight);
+}
+.list-box{
+    border: 1px solid red;
+    margin-bottom: 3rem;
+}
+.select-box{
+    border: 1px solid red;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    position: relative;
+}
+.select-label{
+    display: flex;
+    gap: .5rem;
+    
+    font-size: var(--heading-2);
+    font-weight: var(--bold-weight);
+    cursor: pointer;
+}
+.select-box img{
+    width: 27px;
+    height: 27px;
+}
+.select-list{
+    position: absolute;
+    top: 100%;
+    right: 0; 
+    z-index: 1000;
+    
+    width: 123px;
+    background-color: #fff; 
+    border: 1px solid #000;
+    
+   
+    display: none; 
+    flex-direction: column;
+    gap: .5rem;
+    margin-top: 0.5rem;
+}
+.select-list li:hover {
+    background-color: #f5f5f5;
+}
+.select-box.active .select-list {
+    display: flex;
 }

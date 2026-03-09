@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="../../css/components/footer.css">
     <script src="../../js/components/header.js"></script>
     <link rel="stylesheet" href="../../css/pages/list.css">
+    <script src="../../js/pages/list.js"></script>
 </head>
 <body>
     <div id="site-header"></div>
@@ -23,8 +24,20 @@
                 <li class="light">조명</li>
                 <li class="bookcase">책장(서랍)</li>
             </ul>
-            <div class="list-type">
-                
+            <div class="select-box">
+                <button type="button" class="select-label">
+                    <span>전체상품</span>
+                    <i class="icon-arrow">
+                        <img src="../../assets/icons/list-down.png" alt="열기">
+                    </i>
+                </button>
+
+                <ul class="select-list">
+                    <li><a href="#">신상품</a></li>
+                    <li><a href="#">인기상품</a></li>
+                    <li><a href="#">낮은 가격순</a></li>
+                    <li><a href="#">높은 가격순</a></li>
+                </ul>
             </div>
 
         </div>
