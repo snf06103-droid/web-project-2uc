@@ -31,7 +31,7 @@
 .select-label{
     display: flex;
     gap: .5rem;
-    font-size: var(--heading-2);
+    font-size: var(--heading-4);
     font-weight: var(--bold-weight);
     cursor: pointer;
 }
@@ -83,7 +83,7 @@
 }
 .size-color{
     width: 248px;
-    height: 79.37px;
+    height: 60px;
     background-color: aquamarine;
 }
 .product-name{
