@@ -2,9 +2,10 @@
     background: url(../../images/brand-story/brand-1.jpg) no-repeat 50% 50% / cover;
     font-size: 40px;
     color: #fff;
+    /* height: 2264px; */
 }
 .name-story{
-    margin-bottom: 61.5rem;
+    margin-bottom: 915px;
 }
 .name-story>h2{
     margin-bottom: 1rem;
@@ -140,10 +141,20 @@
 }
 .main-story{
     /* border: 1px solid red; */
-    padding: 30rem 0 9.5rem;
+    padding: 30rem 0 362px;
 }
 .name-story>h2{
     font-size: 3rem;
+}
+
+.slide-up{
+    /* opacity: 0; */
+    transform: translateY(300px);
+    transition: all .5s ease-out .1s;
+}
+.slide-up.active{
+    /* opacity: 1; */
+    transform: translateY(0px);
 }
 
 
