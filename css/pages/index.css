@@ -3,6 +3,7 @@
 .station{
     width: 100%;
     /* height: 900px; */
+    
 }
 .swiper img{
     width: 100%;
@@ -40,8 +41,7 @@
     border-top: 1px solid #fff;
 }
 .pick-list{
-    /* border: 1px solid red; */
-    margin: 18rem auto;
+    padding: 18rem 0;
 }
 .pick-list>h1{
     font-family: var(--font-point);
@@ -164,7 +164,7 @@
 .best-box{
     margin-bottom: 10rem;
 }
-.best-box .common-frame{
+.best-box>.common-frame{
     position: relative;
     margin-bottom: 3.5rem;
 }
@@ -198,7 +198,7 @@
 .best-flex .best-container{
     display: flex;
     /* gap: 1rem; */
-    width: 2908px;
+    /* width: 2908px; */
     transform: translate3d(-201px, 0px, 0px);
 } 
 .swiper {
@@ -215,6 +215,15 @@
     justify-content: center;
     align-items: center;
 } */
+ .swiper {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 0;
+}
+element.style {
+    width: 472.4px;
+    margin-right: 1rem;
+}
 
 .best-container figure{
     width: 400px;
@@ -238,6 +247,9 @@
 }
 .best-banner{
     /* border: 1px solid red; */
+}
+.best-flex{
+    margin-bottom: 8rem;
 }
 .best-box .best-banner>h1{
     font-size: var(--heading-1);
@@ -269,6 +281,7 @@
 .look-book-desc h2{
     font-size: var(--heading-2);
     font-weight: var(--bold-weight);
+    padding-right: 23px;
 }
 .look-book-desc .content{
     display: flex;
@@ -291,3 +304,67 @@
     height: 485px;
     background-color: var(--point-color-1);
 }
+.look-book-section{
+    display: flex;
+    overflow: hidden;
+    height: 570px;
+    align-items: flex-end;
+}
+.look-book-section img{
+    width: 418px;
+    height: 570px;
+    border-radius: 10px 10px 0 0;
+}
+.look-book-section .swiper-wrapper{
+    width: 1213px;
+    height: 570px;
+    margin-left: 0;
+}
+.look-book{
+    margin-bottom: 10rem;
+}
+
+.category{
+    margin-bottom: 10rem;
+}
+.category>h1{
+    font-size: var(--heading-1);
+    font-family: var(--font-point);
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.category-section{
+    display: flex;
+    gap: 1rem;
+}
+.category-box{
+    width: 343px;
+    height: 486px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+.category-box img{
+    position: absolute;
+    z-index: 1;
+    filter: brightness(0.8);
+}
+.category h4{
+    position: absolute;
+    top: 2rem;
+    right: -100%;
+    z-index: 2;
+    font-size: var(--heading-4);
+    font-weight: var(--bold-weight);
+    font-family: var(--font-point);
+    transition:all .5s ease-in-out 0s;
+}
+.category-box:hover img{
+    filter: brightness(1);
+}
+.category-box:hover h4{
+    right: 50%;
+    transform: translateX(+50%);
+}
+
+

@@ -1,16 +1,22 @@
+.custom-order{
+    background: url(../../images/custom/bg.jpg) no-repeat 50% 50% / cover;
+}
 .custom-order .banner{
-    height: 612px;
-    background-color: var(--main-color);
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .main-text h1{
-    text-align: center;
-    font-size: var(--heading-2);
+    font-size: 40px;
+    font-weight: var(--bold-weight);
 }
 .main-text h1:nth-last-of-type(1){
     margin-bottom: .5rem;
 }
 .main-text{
     margin: 10rem 0;
+    text-align: center;
 }
 .custom-box{
     /* border: 5px solid var(--main-color); */
@@ -20,50 +26,85 @@
 }
 .custom-container{
     padding: 4rem 0;
-    background-color: #C2DCC2;
+    border-radius: 80px 80px 0 0;
+
+    /* 1. 반투명한 배경색 (흰색 10~20% 추천) */
+    background: rgba(255, 255, 255, 0.1); 
+    
+    /* 2. 배경 블러 처리 (핵심!) */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* 사파리 호환용 */
+    
+    /* 3. 은은한 테두리와 그림자 (입체감) */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    
 }
 .custom-accout figure{
-    width: 709px;
-    aspect-ratio: 709/500;
-    border-radius: 30px;
+    width: 710px;
+    aspect-ratio: 710/581;
+    border-radius: 34px;
     overflow: hidden;
-    margin-bottom: 3rem;
+}
+.custom-accout>p{
+    margin: 2rem 0;
+    font-size: var( --detail);
+    text-align: center;
 }
 .cart-box{
-    background-color: #fff;
+    background-color: #f4f7ff7a;
+    box-shadow: inset 0 0 6px 5px rgba(141, 141, 141, 0.3);
     border-radius: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 56px;
+    padding: 15px 56px;   
     box-sizing: border-box;
 }
 .cart-box h1{
     font-size: var(--heading-1);
+    font-weight: var(--bold-weight);
 }
 .order-button{
     display: flex;
     gap: .5rem;
 }
 .order-button>span>a{
-    padding: 1rem 2rem;
+    padding: 11px 30px;
     border-radius: 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: .5rem;
     background-color: blue;
     color: #fff;
 }
+.order-button>span>h4{
+    font-size: var(--heading-4);
+    font-weight: var(--bold-weight);
+}
 .order-button img{
-    width: 27px;
+    width: 21.6px;
     aspect-ratio: 1/1;
 }
 .custom-panel{
     border-radius: 30px;
-    background-color: #fff;
+    /* background-color: #fff; */
     width: 587px;
     height: 754px;
     padding: 2rem 4rem;
     box-sizing: border-box;
+
+    /* 1. 반투명한 배경색 (흰색 10~20% 추천) */
+    background: rgba(255, 255, 255, 0.1); 
+    
+    /* 2. 배경 블러 처리 (핵심!) */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px); /* 사파리 호환용 */
+    
+    /* 3. 은은한 테두리와 그림자 (입체감) */
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 0 15px 5px rgba(141, 141, 141, 0.3);
 }
 .custom-step{
     display: flex;
@@ -99,6 +140,14 @@
     width: 100px;
     aspect-ratio: 1/1;
 }
+.items>p{
+    font-size: var(--body-2);
+    border-radius: 15px;
+}
+.items:hover>p{
+    background-color: #575757;
+    color: #fff;
+}
 .custom-menu{
     max-height: 73px;
     overflow: hidden;
@@ -112,4 +161,7 @@
 }
 .active-size .option{
     margin-bottom: 1rem;
+}
+.items, .option{
+    cursor: pointer;
 }

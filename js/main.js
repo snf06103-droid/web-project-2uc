@@ -39,6 +39,26 @@ document.addEventListener("DOMContentLoaded",()=>{
             clickable: true,
           },
         });
+
+
+        // main.js
+          const lookbookSwiper = new Swiper('.lookbook-swiper', {
+              // 자동 재생
+              autoplay: {
+                  delay: 1500,
+                  disableOnInteraction: false,
+              },
+              // 한 번에 보여줄 개수 (2.5로 하면 다음 사진이 반쯤 걸쳐 보여서 예뻐요)
+              slidesPerView: 2.8, 
+              spaceBetween: 18, // 슬라이드 사이 간격
+              loop: true,       // 무한 반복
+              
+              // 반응형 설정
+              breakpoints: {
+                  768: { slidesPerView: 2.2 },
+                  1024: { slidesPerView: 2.5 }
+              },
+          });
 })
 
 
