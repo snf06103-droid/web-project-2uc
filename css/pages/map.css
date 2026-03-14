@@ -6,7 +6,6 @@
     font-family: var(--font-point);
 }
 .map-box{
-    border: 5px solid green;
     display: flex;
     gap: var(--margin-sub-text);
     margin-bottom: var(--margin-main-text);
