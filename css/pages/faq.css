@@ -1,0 +1,76 @@
+body{
+    background-color: var(--neutral-color);
+}
+.faq-box{
+    margin-bottom: 13rem;
+}
+.faq-box section.flex{
+    flex-direction: column;
+    width: 400px;
+}
+.faq-wrap .cover{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.faq-wrap .cover{
+    padding: .5rem 0;
+    border-bottom: .5px solid #000;
+    cursor: pointer;
+}
+.faq-wrap .cover:nth-of-type(1){
+    padding: 1rem 0;
+    border-bottom: 1px solid #000;
+}
+section span{
+    font-weight: var(--bold-weight);
+}
+section>p{
+    width: 100%;
+    cursor: pointer;
+}
+.faq-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 14rem;
+}
+.faq-wrap .faq-box .section2{
+    width: 910px;
+}
+.section2 .cover{
+padding-left: 1rem;
+padding-right: 1rem;
+box-sizing: border-box;
+width: 100%;
+}
+.faq-wrap .section2 .cover:nth-of-type(1) {
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #000;
+}
+.section2 .faq-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-wrap .btn-more{
+    text-align: center;
+    margin-bottom: 10rem;
+}
+.faq-wrap .btn-more button{
+    padding: 1rem 3rem;
+    background-color: var(--point-color-1);
+    color: #fff;
+}
+
+/* 1. 일단 faq-content가 붙은 모든 건 숨깁니다. */
+.faq-content {
+    display: none !important;
+}
+
+/* 2. JS가 active를 붙여준 녀석만 다시 보여줍니다. */
+.faq-content.active {
+    display: flex !important; /* flex가 아니라면 block 등으로 설정 */
+}

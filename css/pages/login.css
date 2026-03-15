@@ -1,12 +1,26 @@
 .login-container{
-    width: 660px;
-    margin: 4rem auto 2rem;
+    width: 600px;
+}
+.container1{
+    margin: 10rem auto 0;
+}
+.container2{
+    margin: 0 auto;
+    color: #9C9C9C;
+    margin-bottom: 2rem;
+}
+.nomembership .login-container{
+    margin: 0 auto;
+    color: #9C9C9C;
+}
+.nomembership .login-buttons{
+    margin-bottom: 10rem;
 }
 .login-type{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 8rem;
+    margin-bottom: 2rem;
 }
 .login-type h1{
     font-size: var(--heading-1);
@@ -30,7 +44,6 @@
 .input-box{
     display: flex;
     flex-direction: column;
-    gap: var(--gap-pc);
 }
 .input-box input{
     border-bottom: 1px solid #000;
@@ -73,30 +86,32 @@
     gap: var(--gap-pc);
 }
 .login-auto input[type="checkbox"]{
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
     cursor: pointer;
     accent-color: #000;
+    border-radius: 0;
 }
 .login-buttons{
-    width: 530px;
+    width: 351px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: var(--margin-main-text);
-    margin-bottom: var(--margin-top-pc);
+    gap:1rem;
+    margin-bottom:1rem;
 }
 .login-buttons>span>a{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 52px;
+    width: 141px;
+    height: 46px;
     background-color: var(--main-color);
     color: #fff;
     font-size: var(--heading-2);
+    font-weight: var(--bold-weight);
 }
 .login-links{
     width: 100%;
@@ -106,40 +121,37 @@
     flex: 1;
     text-align: center;
 }
-.login-links a:nth-of-type(1){
-    border-right: 1px solid #000;
+.login-links>img{
+    width: 24px;
+    aspect-ratio: 1/1;
 }
 .sign-up{
-    width: 300px;
+    width: 600px;
     margin: 0 auto;
     margin-bottom: var(--margin-top-pc);
     text-align: center;
 }
-.sign-up span{
-    border: 1px solid #000;
-    display: inline-block;
-    margin-bottom: 3rem;
+.login{
+    margin-bottom: 5rem;
 }
-.sign-up>span>a{
-    display: inline-block;
-    padding: 10px 40px;
-    font-size: 30px;
-}
+
 .sns-icons{
     display: flex;
     flex-direction: column;
-    gap: var(--gap-pc);
+    gap: 1rem;
 }
 .sns-icons>a{
+    width: 600px;
+    height: 42px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: var(--margin-main-text);
-    padding: 20px;
+    gap: 1rem;
     border: 1px solid #9C9C9C;
 }
-.sns-icons>a>img{
-    width: 24px;
+.sns-icons img{
+    width: 19.2px;
+    height: 19.2px;
     aspect-ratio: 1/1;
 }
 

@@ -15,9 +15,9 @@
 <body>
     <div id="site-header"></div>
     
-    <div class="login-container">
+    <div class="login-container container1">
         <div class="login-type">
-            <h1>Log In</h1>
+            <h1 class="point">Log In</h1>
             <div class="login-tabs">
                 <label for="login">
                     <input type="radio" id="login" name="user-type" checked>
@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="login">
-        <div class="login-container">
+        <div class="login-container container2">
             <div class="user-input">
                 <div class="input-box">
                     <label for="user-email">E-mail</label>
@@ -49,15 +49,20 @@
                 </div>
             </div>
             <div class="login-auto">
+                <input type="checkbox" id="user-remember-id">
+                <label class="body2 light" for="user-remember-id">아이디 저장</label>
                 <input type="checkbox" id="user-auto-login">
-                <label for="user-auto-login">아이디 저장</label>
+                <label class="body2 light" for="user-auto-login">자동 로그인</label>
             </div>
         </div>
         <div class="login-buttons">
             <span><a href="#">로그인</a></span>
             <div class="login-links">
                 <a href="#">아이디 찾기</a>
+                <img src="../../assets/icons/slash.png" alt="슬래시">
                 <a href="#">비밀번호 찾기</a>
+                <img src="../../assets/icons/slash.png" alt="슬래시">
+                <a href="#">회원가입</a>
             </div>
         </div>
     </div>
@@ -81,23 +86,19 @@
     </div>
 
     <div class="sign-up">
-        <span>
-            <a href="./join.html">
-                회원가입
-            </a>
-        </span>
         <div class="sns-icons">
+            <p class="body2 light magin05">소셜 로그인</p>
             <a href="#">
-                <img src="/assets/icons/naver-icons.png" alt="네이버 로그인">
-                <p>네이버 아이디로 로그인</p>
+                <img src="../../assets/icons/naver-icons.png" alt="네이버 로그인">
+                <p class="body2 light">네이버 로그인</p>
             </a>
             <a href="#">
-                <img src="/assets/icons/google-icon.png" alt="구글 로그인">
-                <p>구글 아이디로 로그인</p>    
+                <img src="../../assets/icons/google-icon.png" alt="구글 로그인">
+                <p class="body2 light"> 구글 로그인</p>    
             </a>
             <a href="#">
-                <img src="/assets/icons/kakao-icon.png" alt="카카오 로그인">
-                <p>카카오 아이디로 로그인</p>
+                <img src="../../assets/icons/kakao-icon.png" alt="카카오 로그인">
+                <p class="body2 light">카카오 로그인</p>
             </a>
         </div>
     </div>

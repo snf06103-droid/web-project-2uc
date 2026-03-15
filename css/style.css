@@ -13,15 +13,13 @@
     --font-size-pad: 16px;
     --font-size-mobile: 14px;
 
-    --heading-1: 1.61rem;
-    --heading-2: 1.44rem;
-    --heading-3: 1.27rem;
-    --heading-4: 1.11rem;
+    --heading-1: 1.601rem;
+    --heading-2: 1.423rem;
+    --heading-3: 1.265rem;
+    --heading-4: 1.125rem;
     --body-1: 1rem;
-    --body-2: 0.88rem;
-    --detail:0.77rem;
-
-     
+    --body-2: 0.875rem;
+    --detail:0.765rem;     
 
     --bold-weight: 700;
     --medium-weight: 500;
