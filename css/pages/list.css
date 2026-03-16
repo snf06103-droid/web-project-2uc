@@ -18,7 +18,7 @@
 }
 .list-box{
     /* border: 1px solid red; */
-    margin-bottom: 3rem;
+    margin-bottom: 4.5rem;
 }
 .select-box{
     /* border: 1px solid red; */
@@ -98,7 +98,7 @@
     justify-content: center;
 }
 .list-box nav{
-    margin-bottom: var(--margin-top-pc);
+    /* margin-bottom: var(--margin-top-pc); */
 }
 
 .product-option{
@@ -161,4 +161,9 @@
 .pagination>li{
     cursor: pointer;
     font-weight: var(--light-weight);
+}
+.bottom-banner{
+    background: url(../../images/main-page/mainpage-banner.jpg) no-repeat 50% 50% / cover;
+    height: 150px;
+    margin-bottom: 10rem;
 }

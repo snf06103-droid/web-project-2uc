@@ -74,3 +74,10 @@ width: 100%;
 .faq-content.active {
     display: flex !important; /* flex가 아니라면 block 등으로 설정 */
 }
+
+.faq-content p:nth-of-type(2){
+    width: 400px;
+}
+.faq-content p:nth-of-type(3){
+    width: 100px;
+}
