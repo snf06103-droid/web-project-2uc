@@ -368,3 +368,17 @@ element.style {
 }
 
 
+.slide-up{
+    /* opacity: 0; */
+    transform: translateX(1300px);
+    transition: all .4s ease-out .1s;
+}
+.slide-up:nth-of-type(2){
+    /* opacity: 0; */
+    transform: translateX(-1300px);
+    transition: all .4s ease-out .1s;
+}
+.slide-up.active{
+    /* opacity: 1; */
+    transform: translateX(0px);
+}

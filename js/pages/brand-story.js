@@ -14,5 +14,5 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// 클래스가 slide-up-text인 모든 요소를 찾아 감시 시작
+// 클래스가 slide-up인 모든 요소를 찾아 감시 시작
 document.querySelectorAll('.slide-up').forEach(el => observer.observe(el));

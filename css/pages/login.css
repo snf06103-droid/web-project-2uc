@@ -12,6 +12,7 @@
 .nomembership .login-container{
     margin: 0 auto;
     color: #9C9C9C;
+    margin-bottom: 4.5rem;
 }
 .nomembership .login-buttons{
     margin-bottom: 10rem;
@@ -110,7 +111,7 @@
     height: 46px;
     background-color: var(--main-color);
     color: #fff;
-    font-size: var(--heading-2);
+    font-size: var(--heading-4);
     font-weight: var(--bold-weight);
 }
 .login-links{
