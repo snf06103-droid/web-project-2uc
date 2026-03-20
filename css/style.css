@@ -86,6 +86,42 @@ button {
     
     vertical-align: middle;
 }
+legend {
+    display: block;        /* 블록 요소로 변경 */
+    width: 100%;           /* 너비 확보 */
+    padding: 0;
+    margin-bottom: 10px;   /* 텍스트와 아래 요소 사이 간격 (선택) */
+    font-size: 1rem;
+    font-weight: bold;
+    border: 0;             /* 테두리 제거 */
+    color: inherit;
+}
+select {
+    /* 1. 브라우저 기본 스타일 제거 (가장 중요) */
+    -webkit-appearance: none;  /* Safari, Chrome */
+    -moz-appearance: none;     /* Firefox */
+    appearance: none;          /* 표준 속성 */
+
+    /* 2. 폰트 및 컬러 상속 */
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+
+    /* 3. 테두리 및 배경 초기화 */
+    background-color: transparent;
+    border: none;  /* 원하는 테두리 설정 */
+    border-radius:none;      /* 둥근 모서리 제어 */
+    
+    /* 4. 여백 조정 */
+    padding: 0px; /* 오른쪽은 화살표 들어갈 공간 확보 */
+    margin: 0;
+    
+    /* 5. 레이아웃 관련 */
+    display: block;
+    /* width: 100%; */
+    cursor: pointer;
+    box-sizing: border-box;
+}
 .light{
     font-weight: var(--light-weight);
 }
@@ -138,6 +174,10 @@ h4{
 }
 .magin10{
     margin-bottom: 10rem;
+}
+
+.gray{
+    color: #9C9C9C;
 }
 
 @media (max-width:1440px){
