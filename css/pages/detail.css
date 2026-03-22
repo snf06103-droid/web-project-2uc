@@ -4,6 +4,8 @@ body {
     height: 100%;
     background-color: var(--neutral-color);
 }
+
+/* 상세페이지 스와이퍼 js스타일 */
 .swiper {
     width: 100%;
     height: 100%;
@@ -114,4 +116,25 @@ element.style {
 .mySwiper .swiper-slide-thumb-active {
     opacity: 1;
     /* 선택된 표시 */
+}
+
+/* 상세페이지 스타일 */
+.detail-wrap .img-box{
+    border: 1px solid red;
+}
+
+@media (max-width:1440px){
+
+}
+
+@media (max-width:768px){
+
+}
+
+@media (max-width:370px){
+
+}
+
+@media (max-width:350px){
+    
 }

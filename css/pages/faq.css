@@ -85,3 +85,19 @@ width: 100%;
 .faq-content p:nth-of-type(3){
     width: 100px;
 }
+
+@media (max-width:1440px){
+
+}
+
+@media (max-width:768px){
+
+}
+
+@media (max-width:370px){
+
+}
+
+@media (max-width:350px){
+    
+}

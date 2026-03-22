@@ -203,3 +203,19 @@
     color:var(--point-color-2); /* 글자색 검정으로 */
     font-weight: bold; /* 굵게 */
 }
+
+@media (max-width:1440px){
+
+}
+
+@media (max-width:768px){
+
+}
+
+@media (max-width:370px){
+
+}
+
+@media (max-width:350px){
+    
+}

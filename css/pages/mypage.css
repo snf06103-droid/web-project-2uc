@@ -314,3 +314,19 @@
 .dl-flex dl dd{
     font-size: var(--heading-2);
 }
+
+@media (max-width:1440px){
+
+}
+
+@media (max-width:768px){
+
+}
+
+@media (max-width:370px){
+
+}
+
+@media (max-width:350px){
+    
+}

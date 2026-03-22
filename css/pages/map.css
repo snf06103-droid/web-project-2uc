@@ -48,3 +48,19 @@
     background-color: #333; /* 점의 색상 */
     border-radius: 50%; /* 둥글게 만들어 점으로 변신! */
 }
+
+@media (max-width:1440px){
+
+}
+
+@media (max-width:768px){
+
+}
+
+@media (max-width:370px){
+
+}
+
+@media (max-width:350px){
+    
+}
